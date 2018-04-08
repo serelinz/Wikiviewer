@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+        <div class="p-2 d-flex flex-column justify-content-center align-items-center container">          
+                    <h1 class="head">Wikipedia Viewer</h1> 
+                                       
+                    <div class="search">
+                        <input type="text" class="searchTerm" id="searchTerm" placeholder="What are you looking for?">
+                        <button type="submit" class="searchButton" id="searchButton">
+                        <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="random">
+                    <button type="submit" class="btn btn-dark">   
+                        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Feeling Lucky</a>
+                    </button>
+                    </div> 
+                    <div id="output" ></div>
+        </div>
+        <footer> <p>Design and coded by SerelinZ</p></footer>
+   
+    
+    <script src="app.js" ></script>
+</body>
+</html>
